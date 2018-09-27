@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+  background-color: gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navbar ul{
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar li{
+  display: inline-block;
+  border-right: lightcyan;
+  padding: 14px 25px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+#project-wrapper {
+  margin: 50px 10px;
+}
+
+.project{
+  display: inline-block;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  width: 300px;
+  margin: 15px;
+  font-weight: bold;
+}
